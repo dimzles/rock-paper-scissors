@@ -40,11 +40,12 @@ btn1.addEventListener('click', () => {
 
 btn2.addEventListener('click', () => {
     playRound(paper, computerPlay());
-    gameOver()
+    gameOver();
 })
 
 btn3.addEventListener('click', () => {
     playRound(scissors, computerPlay());
+    gameOver();
 })
 
 //computerPlay func to randomly return rock/paper/scissors
