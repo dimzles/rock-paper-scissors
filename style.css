@@ -1,0 +1,29 @@
+body {
+    font-family: Roboto, sans-serif;
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    margin:0;
+}
+
+.title, .header, .buttons, .footer, .subtitle, .content, .results-container, .container, .score-container, .retryContainer {
+    display:flex;
+    justify-content: center;
+}
+
+.header {
+    margin-top: 0;
+    margin-bottom: 32px;
+    padding: 16px;
+}
+
+.score-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 128px;
+}
+
+.container {
+    flex-direction: column;
+}
